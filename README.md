@@ -1,6 +1,6 @@
 # Laboratorio IDS con Suricata su Linux 
 
-Guida pratica di **Network Security Monitoring (NSM)** e **Intrusion Detection System (IDS)** con **Suricata** su Linux (Ubuntu).  
+**Network Security Monitoring (NSM)** e **Intrusion Detection System (IDS)** con **Suricata** su Linux (Ubuntu).  
 L'obiettivo di questo laboratorio è mostrare come installare un sensore IDS, avviarlo in modalità di rilevamento (senza blocco del traffico), comprendere la cartella dei log e analizzare gli eventi di rete con strumenti da terminale come `jq`.
 
 > **Nota sul perimetro (IDS vs. IPS):** In questo laboratorio Suricata viene utilizzato in modalità **IDS** (*Intrusion Detection System*): osserva il traffico sull'interfaccia di rete, lo analizza rispetto alle regole e registra eventi o alert nei file di log **senza bloccare** le connessioni. La modalità **IPS** (*Intrusion Prevention System*, con azioni come `drop`/`reject` e traffico in-line) è prevista in un laboratorio successivo dedicato.
